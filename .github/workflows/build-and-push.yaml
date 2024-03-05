@@ -1,12 +1,8 @@
-# Create build and deploy workflow for deploying .Net 8.0 application to Azure App Service using GitHub Actions 
-# Read the Azure subscription from Github Environment variables 
-# Get the client credentials from Github secrets
-# Use the .Net Github actions to build
-# Use the Azure Login action to login to Azure
-# Use the Azure Web App action to deploy the application to Azure App Service
-
-
-
-
-
+#Create build and deploy workflow for deploying .Net 8.0 application to Azure App Service using GitHub Actions 
+#define the environment variables for the Azure subscription id, resource group, SKU, Size and location inside the build-and-push.yaml file
+#define the secrets for the Azure client id, client secret and tenant id inside the build-and-push.yaml file
+#define the steps for the Azure login and Azure Web App deploy actions inside the build-and-push.yaml file
+#define the trigger for the workflow to run on push and pull request events
+#define the on and off jobs for the workflow to run on the latest version of the ubuntu-latest runner
+#define the steps for the checkout, setup .Net, build, and publish actions inside the build-and-push.yaml file
 
