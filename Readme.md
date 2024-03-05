@@ -14,6 +14,8 @@ The project is a simple web application that allows users to create, read, updat
 1. You should see the home page of the application.
 
 ## Lab Excersise
+Follow the instructions below in the same sequence.
+
 1. Open the `User` class in the `Models` folder.
 	1. Ask GitHub Copilot to generate a sample user model.
 1. Open the `IUserService` class in the `Services` folder.
