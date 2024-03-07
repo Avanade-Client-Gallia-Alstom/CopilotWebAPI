@@ -2,7 +2,7 @@ This serves as a sample project for the GitHub Copilot lab exercise.
 The project is a simple web application that allows users to create, read, update, and delete (CRUD) users with sample data. 
 
 ## Prerequisites
-- Visual Studio 2022 with version 17.6 or later
+- Visual Studio 2022 17.5.5 or later
 - GitHub Copilot
 - GitHub account
 
